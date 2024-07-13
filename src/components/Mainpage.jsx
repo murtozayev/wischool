@@ -21,7 +21,7 @@ const Mainpage = () => {
     return (
         <Container id="home" className=" phone:h-[100vh] phone:w-[100%] other:w-[2020px] w-[1349px] mx-auto ">
             <Header />
-            <Container className="px-[70px] phone:relative phone:mt-[8rem] phone:gap-[1rem] phone:flex-wrap phone:px-[1rem] other:mt-[200px] mt-[100px] flex phone:items-center justify-center ">
+            <Container className="px-[70px] justify-between phone:relative phone:mt-[8rem] phone:gap-[1rem] phone:flex-wrap phone:px-[1rem] other:mt-[200px] mt-[100px] flex phone:items-center phone:justify-center ">
                 <Icontext iconName={coding} text="Problem Solving" />
                 <Icontext iconName={chat} text="Live chat" />
                 <Icontext iconName={group} text="Group Reading" />
